@@ -9,8 +9,7 @@
 		"test": "ng test",
 		"exec": "ts-node --project tsconfig.tools.json",
 		"release": "standard-version",
-		"release:tags": "git push --follow-tags origin master",
-		"release:core": "cd dist/qwert2001qwert/core && npm publish --access=public"
+		"publish:core": "cd dist/qwert2001qwert/core && npm publish --access=public"
 	},
 	"private": false,
 	"dependencies": {
