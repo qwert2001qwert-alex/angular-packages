@@ -1,15 +1,12 @@
 {
 	"name": "@qwert2001qwert/core",
-	"version": "0.0.1",
-	"description": "Enterprise-class UI components based on Angular",
-	"author": {
-		"name": "Alex Kato",
-		"email": "qwert2001qwert@gmail.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "urlToYourRepository"
-	},
+	"version": "0.0.5",
+	"description": "Enterprise-class UI and core components based on Angular",
+	"authors": [
+		"Alex Kato <qwert2001qwert@gmail.com>"
+	],
+	"homepage": "https://github.com/qwert2001qwert-alex/angular-packages",
+	"repository": "https://github.com/qwert2001qwert-alex/angular-packages",
 	"peerDependencies": {
 		"@angular/common": "^14.1.0",
 		"@angular/core": "^14.1.0"
