@@ -1,6 +1,6 @@
 {
 	"name": "qwert2001qwert-angular",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
@@ -8,7 +8,6 @@
 		"watch": "ng build --watch --configuration development",
 		"test": "ng test",
 		"exec": "ts-node --project tsconfig.tools.json",
-
 		"release": "release-please --token=./apikey.txt --repo-url=https://github.com/qwert2001qwert-alex/angular-packages release-pr",
 		"release:patch": "npm run exec -- ./scripts/release.ts --release-as patch",
 		"release:minor": "npm run exec -- ./scripts/release.ts --release-as minor",
