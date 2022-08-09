@@ -18,7 +18,6 @@ export class DarkModeService {
 	constructor(
 		private rendererFactory: RendererFactory2,
 		private mediaQueryService: MediaQueryService,
-		// prettier-ignore
 		@Optional() @Inject(DARK_MODE_OPTIONS) private providedOptions: DarkModeOptions | null
 	) {
 		this.options = {...defaultOptions, ...(this.providedOptions || {})};
@@ -96,4 +95,6 @@ export class DarkModeService {
 			);
 		});
 	}
+
+	// release testing. 1
 }
